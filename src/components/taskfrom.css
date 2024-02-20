@@ -1,0 +1,51 @@
+
+.container {
+    width: 50rem;
+    height: 50vh;
+    background-color: #7fb2e8;
+    margin: 0 auto;
+    border-radius: 1rem;
+  }
+  
+  .tasknamediv, .priordiv {
+    margin-left: 3rem;
+    margin-bottom: 10px;
+    padding-top: 2rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .formsubmitbtn {
+    background-color: #007bff;
+    margin-left: 20rem;
+    margin-top: 2rem;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .formsubmitbtn:hover {
+    background-color: #0056b3;
+  }
+
+  .datetag{
+    margin-left: 2rem;
+    padding: 1rem;
+  }
+  

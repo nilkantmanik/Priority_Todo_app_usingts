@@ -1,0 +1,59 @@
+.cardcontainer{
+    height: 5rem;
+    width: 48rem;
+    background-color: rgb(178, 207, 210);
+    border: 1px solid #ccc;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    transition: transform 0.3s ease;
+}
+
+.cardcontainer:hover {
+    transform: scale(1.05); /* Enlarge the div on hover */
+  }
+
+
+.taskdetails{
+    margin: 1rem;
+}
+
+.contentheading{
+    font-weight: bold;
+    font-size: large;
+}
+
+.contentspan{
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#updatebtn,
+#deletebtn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#updatebtn {
+  margin-right: 10px;
+}
+
+#deletebtn {
+  background-color: #dc3545;
+}
+
+#updatebtn:hover,
+#deletebtn:hover {
+  background-color: #0056b3;
+}
+
+#updatebtn:focus,
+#deletebtn:focus {
+  outline: none;
+}
